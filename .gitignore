@@ -1,0 +1,30 @@
+
+# --- added for GitHub publishing ---
+.env
+*.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+
+# notebooks
+.ipynb_checkpoints/
+
+# local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# outputs + data (avoid huge uploads)
+data/
+raw/
+processed/
+outputs/
+output/
+logs/
+
+# large files
+*.csv
+*.parquet
+*.zip
